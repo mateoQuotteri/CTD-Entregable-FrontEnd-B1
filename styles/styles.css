@@ -456,6 +456,9 @@ header{
     #sanyo{
         background-image: url(../imagenes/avatar-sanyo.png);
     }
+    .btn-more-container{
+        margin-bottom: 7em;
+}
     .btn-more-container a{
         width: 10%;
     }
@@ -508,34 +511,44 @@ header{
     background-color: transparent;
     color: white;
 }
+.last-section-container{
+   display: none;
+}
 
 @media(min-width: 1440px){
     .last-section{
         background-color: #8B48BF;
-        flex-direction: row;
-        justify-content: center;
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
+        flex-direction: row;
         margin-top: 2em;
-        padding: 0em;
-        width: 100%;
     }
     .last-section h3{
         color: white;
-        width: 45%;
+        width: 20%;
         text-align: left;
         font-size: 30px;
         font-weight: bold;
     }
+    .btn-goforit-container{
+        width: 15%;
+        height: 80%;
+    }
+    
     .btn-goforit-container a{
-        width: 10%;
+        padding: 1.5em;
+        width: 100%;
         background-color: white;
         color: #8B48BF;
+        border-radius: 3em;
     }
 
      .btn-goforit-container a button{
         color: #8B48BF;
+        font-size: 18px;
     }
-
+   
 }
 
 
