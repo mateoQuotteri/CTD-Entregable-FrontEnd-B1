@@ -1,4 +1,6 @@
-
+*
+{ 
+    font-family: 'Be Vietnam Pro', sans-serif;}
 
 body{ 
     background-color: white;
@@ -633,8 +635,30 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 1em;
+    margin: 3em 0em 3em 0em;
  }
 
  .icon-container-footer i{ 
     color: white;
+ }
+
+ .footer-img-container{ 
+   background-image: url(../imagenes/logo.svg);
+   background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 35%;
+    height: 2em;
+ 
+
+}
+.copy-container{ 
+    width: 50%;
+    color: #8C8C94;
+ }
+
+ .copy-container h6{ 
+    width: 100%;
+    text-align: center;
+    color: #8C8C94;
  }
