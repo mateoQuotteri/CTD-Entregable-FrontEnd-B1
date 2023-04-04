@@ -660,6 +660,7 @@ header{
 
  .icon-container-footer i{ 
     color: white;
+    font-weight: bold;
  }
 
  .footer-img-container{ 
@@ -728,6 +729,7 @@ header{
       }
       .icon-container-footer-d i{ 
        color: white;
+       font-weight: bold;
      }
      .second-art{
         width: 60%;
@@ -783,16 +785,17 @@ header{
         justify-content: center;
         align-items: center;
         width: 100%;
+        gap: .2em;
      }
      .third-article form input { 
-        width: 85%;
+        width: 80%;
         border-radius: 2em;
-        padding: .5em;
+        padding: .8em;
         background-color: white;
      }
      .third-article form a {
         width: 15%;
-        padding: .5em;
+        padding: .6em;
         border-radius: 1.8em;
         background-color: #8B48BF;
         display: flex;
