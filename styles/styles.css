@@ -94,17 +94,23 @@ header{
      align-items: center;
      flex-basis: 25%;
      transition: color 500ms;
+
     } 
     .ul-header a li{ 
         list-style: none;
         text-align: center;
+
     } 
 
     .ul-header li:hover{ 
         color: #1E1E26;
+        animation:jello-diagonal .9s linear both
        } 
 
  } 
+ @keyframes jello-diagonal{0%{transform:skew(0deg 0deg)}30%{transform:skew(25deg 25deg)}40%{transform:skew(-15deg,-15deg)}50%{transform:skew(15deg,15deg)}65%{transform:skew(-5deg,-5deg)}75%{transform:skew(5deg,5deg)}100%{transform:skew(0deg 0deg)}}
+
+
 /*FIN HEADER  { } */
 
 /* INICIO PRINCIPAL SECTIOM */
@@ -171,6 +177,10 @@ header{
         align-items: center;
         padding: 1em;
         width: 25%;
+        
+    }
+    .button-of-contact-2:hover{
+        animation:jello-diagonal 1s linear both
     }
     .button-of-contact-2 button{
         color: white;
@@ -431,7 +441,9 @@ header{
     padding: 1em;
     width: 25%;
 }
-
+.btn-more-container a:hover{
+    animation:jello-diagonal 1s linear both
+}
 .btn-more-container a button{
     border: none;
     background-color: transparent;
@@ -513,7 +525,9 @@ header{
     padding: 1em;
     width: 25%;
 }
-
+.btn-goforit-container a:hover{
+    animation:jello-diagonal 1s linear both
+}
 .btn-goforit-container a button{
     border: none;
     background-color: transparent;
